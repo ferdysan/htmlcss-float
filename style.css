@@ -4,6 +4,21 @@
   padding: 0;
 }
 
+h1, h2, h6{
+  margin-bottom: 10px;
+}
+
+button{
+  margin: 10px 10px;
+  padding: 15px;
+  background-color: orange;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color: red;
+}
+
 hr{
   margin: 10px 10px;
 }
@@ -12,10 +27,12 @@ body{
   width: 50%;
   background-color: grey;
   margin-top: 20px;
+  font-family: sans-serif;
 }
 
 .primo img{
   width: 100px;
+  border-radius: 50%;
 
 }
 
@@ -74,6 +91,17 @@ main:after{
   clear: left;
   display: table;
   content: '';
+}
+
+.fas{
+  padding: 5px;
+  margin-left: 5px;
+  color: orange;
+  font-size:25px;
+}
+
+.fas:hover{
+  color:red;
 }
 
 footer{
