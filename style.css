@@ -25,7 +25,7 @@ hr{
 
 body{
   width: 50%;
-  background-color: grey;
+  background-color: #e0e0e0;
   margin-top: 20px;
   font-family: sans-serif;
 }
@@ -68,6 +68,17 @@ body{
   text-align: center;
 }
 
+.social{
+  margin-top: 30px;
+}
+
+
+.social li{
+  display: block;
+  margin-right: 10px;
+  float: left;
+}
+
 .about{
   width: 70%;
   float: left;
@@ -93,7 +104,7 @@ main:after{
   content: '';
 }
 
-.fas{
+.fas, .fab{
   padding: 5px;
   margin-left: 5px;
   color: orange;
