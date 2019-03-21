@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  width: 50%;
+  background-color: grey;
+  margin-top: 20px;
+}
+
+.primo img{
+  width: 100px;
+
+}
+
+.best_tre img{
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.best_tre{
+  margin-bottom: 40px;
+  border-bottom: 1px solid linen;
+}
+
+.col{
+  float: left;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.primo{
+    width: 35%;
+    height: 30vh;
+}
+
+.secondo{
+      float: right;
+      width: 60%;
+  }
+
+.bio{
+  padding: 10px;
+  text-align: center;
+}
+
+.about{
+  width: 70%;
+  float: left;
+  position: relative;
+}
+
+.credit{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+}
+
+.credit li{
+  display: inline;
+  margin-right: 5px;
+
+}
+
+main:after{
+  clear: left;
+  display: table;
+  content: '';
+}
+
+footer{
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
